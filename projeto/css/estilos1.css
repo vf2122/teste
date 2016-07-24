@@ -1,0 +1,158 @@
+*{
+	
+	margin:0;
+	padding:0;
+}
+
+#principal{
+	
+	position: absolute;
+	height: 90%;
+	width: 100%;
+	background-color: #444;
+	
+}
+
+header{
+	
+	background-color: #222;
+	color: white;
+	position: relative;
+	top: 0;
+	
+}
+
+header, footer{
+	
+	height: 50px;
+}
+
+
+
+
+footer{
+	
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #222;
+	color: white;
+	
+}
+
+
+
+#aside-esq, #aside-dir{
+
+	position: absolute;
+	height: 90%;
+	width: 50%;
+	background-size: cover;
+}	
+
+#aside-esq{
+	
+	background-image: url("../img/bmw1.jpg");
+	
+}
+
+
+#aside-dir{
+	
+	background-image: url("../img/bmw2.jpg");
+	right: 0;
+}
+
+#aside-esq:hover, #aside-dir:hover{
+	
+	border: 3x;
+	border-style: inset;
+	border-color: black;
+	box-shadow: 0 0 20px #FF0000;
+	opacity: 0.3;
+}
+
+#form-login{
+	
+	margin-left: 570px;
+	margin-top: 200px;
+	
+}
+
+label, legend{
+	color: white;
+	margin-right: 7px;
+}
+
+input, select{
+	
+	margin-right: 7px;
+	margin-bottom: 10px;
+}
+
+#label-senha{
+	margin-right: 10px;
+}
+
+#tabela-compra{
+	
+	color: white;
+	border: 1px solid white;
+}
+
+td{
+ 	padding: 10px;
+	border: 1px solid white;
+}
+
+
+#btn-login{
+	margin-top: 5px;
+	width: 217px;
+}
+
+.imagem-comprar{
+	width: 180px;
+	height: 180px;
+}
+
+#info-carro{
+	
+	border: 1;
+	border: solid;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	width: 430px;
+}
+
+textarea{
+	color: #999;
+}
+
+#imagem-negoc{
+	
+	float: right;
+	opacity: 0.3;
+}
+
+#imagem-negoc:hover{
+	
+	opacity: 0.9;
+}
+
+p{
+	color: white;
+}
+
+#img-anuncio{
+
+	width: 320px;
+	height: 280px;
+	transition: all 0.6s;
+}
+
+#img-anuncio:hover{
+
+	transform: scale(1.6);
+}

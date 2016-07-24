@@ -1,0 +1,156 @@
+*{
+	
+	margin:0;
+	padding:0;
+}
+
+header{
+	
+	background-color: #222;
+	color: white;
+	position: relative;
+	
+}
+
+header, footer{
+	
+	height: 50px;
+}
+
+nav{
+	background-color: #000;
+	min-height: 557px;
+}
+
+footer{
+	
+	position:relative;
+	background-color: #222;
+	color: white;
+	
+}
+
+
+#principal{
+	
+	background-color: #CCC;
+	min-height: 557px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+
+#aside-esq, #aside-dir{
+
+	position relative;
+	min-height: 557px;
+	background-size: 100%;
+}	
+
+#aside-esq{
+	
+	background-image: url("../img/bmw1.jpg");
+}
+
+
+#aside-dir{
+	
+	background-image: url("../img/bmw2.jpg");
+}
+
+#aside-esq:hover, #aside-dir:hover{
+	
+	border: 3x;
+	border-style: inset;
+	border-color: black;
+	box-shadow: 0 0 20px #FF0000;
+	opacity: 0.3;
+}
+
+#form-login{
+	
+	margin-left: 570px;
+	margin-top: 200px;
+	
+}
+
+
+#label-senha{
+	margin-right: 10px;
+}
+
+#tabela-compra{
+	
+	color: black;
+	border: 1px solid white;
+}
+
+td{
+ 	padding: 10px;
+	border: 1px solid #BBB;
+}
+
+
+#btn-login{
+	margin-top: 5px;
+	width: 217px;
+}
+
+.imagem-comprar{
+	width: 180px;
+	height: 180px;
+}
+
+#info-carro{
+	
+	border: 1;
+	border: solid;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	width: 430px;
+}
+
+textarea{
+	color: #999;
+}
+
+#form_vender{
+	padding-left: 30px;
+}
+
+#imagem-negoc{
+	
+	 width: 750px; height: 490px; 
+	 margin-right: 10px;
+	float: right;
+}
+
+
+
+#div_anuncio{
+	
+	height: 520px;
+	border: 2px solid white;
+	padding: 10px;
+	padding-left: 25px;
+}
+
+
+#img_anuncio{
+	
+	width: 350px;
+	height: 400px;
+}
+
+#borda_info_anuncio{
+	
+	border: 1px solid #333;
+}
+
+legend{
+
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
